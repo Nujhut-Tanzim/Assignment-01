@@ -1,7 +1,7 @@
 class BankAccount {  
-    constructor(accountNumber,OwnerName,balance) {
+    constructor(accountNumber,ownerName,balance) {
         this.accountNumber = accountNumber;
-        this.OwnerName=OwnerName;
+        this.ownerName=ownerName;
         this.balance = balance;
         
     }
@@ -25,7 +25,7 @@ class BankAccount {
     displayAccountInfo()
     {
         console.log("Account Number: "+this.accountNumber);
-        console.log("Owner Name: "+this.OwnerName);
+        console.log("Owner Name: "+this.ownerName);
         console.log("Balance: $"+this.getBalance());
 
     }
